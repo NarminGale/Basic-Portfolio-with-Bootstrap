@@ -1,3 +1,7 @@
+body {
+  background: url(../images/background-2.jpeg);
+}
+/*  Navbar */
 .navbar {
   background: white !important;
   border-bottom: 1px solid #e7e7e7;
@@ -84,3 +88,22 @@
     margin-left: 3rem !important;
   }
 }
+/* end of  Navbar */
+
+/* Footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  margin-top: 30px;
+  background-color: #666;
+  border-top: 0.4rem solid #4aaaa5;
+}
+.footer > .container {
+  margin-top: 0.7rem;
+}
+.footer span {
+  font-size: 0.9rem;
+}
+/* end of Footer */
