@@ -1,0 +1,86 @@
+.navbar {
+  background: white !important;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 0;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.navbar-brand {
+  background: #4aaaa5;
+  color: white !important;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-left: 3rem;
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+.navbar-toggler {
+  margin-top: 0.5rem;
+  border-color: white !important;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  font-size: 1rem;
+  outline: none !important;
+  display: block;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.nav-link:not(:first-child) {
+  padding-left: 1.5rem !important;
+  padding-right: 0 !important;
+}
+@media (min-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: 750px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .navbar {
+    background: #4aaaa5 !important;
+  }
+  .navbar-brand {
+    margin-left: 0;
+    white-space: pre-wrap;
+    margin-right: 0;
+  }
+  .navbar-brand {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  .navbar-toggler {
+    margin-right: 0;
+    margin-left: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 1250px;
+  }
+  .nav-link:last-child {
+    margin-right: 1rem;
+  }
+  .navbar-collapse {
+    display: flex !important;
+  }
+  .navbar-nav {
+    flex-direction: row !important;
+  }
+  .navbar-toggler {
+    display: none;
+  }
+  .navbar-collapse {
+    flex-basis: 0;
+  }
+  .navbar-brand {
+    margin-left: 5rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .navbar-brand {
+    margin-left: 3rem !important;
+  }
+}
