@@ -203,3 +203,11 @@ body {
   margin: 20px 0 15px 0;
 }
 /* end of Contact Page */
+
+/* Portfolio page */
+.portfolio-img {
+  height: 200px;
+  margin-bottom: 1.5rem;
+  object-fit: cover;
+}
+/* end of Portfolio page */
